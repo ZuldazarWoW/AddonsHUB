@@ -1,0 +1,8 @@
+<Bindings>
+	<Binding name="PANOSHOT_ONESHOT" header="PANOSHOT">
+        PanoShot.Once()
+	</Binding>
+	<Binding name="PANOSHOT_PANOSHOT">
+        PanoShot.Start()
+	</Binding>
+</Bindings>

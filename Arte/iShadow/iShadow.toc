@@ -1,0 +1,13 @@
+## Interface: 80000
+
+## Title: i|Shadow - [|cffb1997fZuldazarWoW|r]
+## Author: Imithat/Nightcracker (Maintained by Ferous)
+
+## Version: 1.0.7
+## Notes: Creates a shadow overlay
+
+## SavedVariables: iShadowLevel
+
+iShadow.lua
+
+iShadow.lua

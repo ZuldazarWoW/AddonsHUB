@@ -1,0 +1,17 @@
+## Interface: 30300
+## Author: GetLocalPlayer
+## Title: DressMe - [|cffb1997fZuldazarWoW|r]
+## Notes: Transmog addon for WotLK 3.3.5
+## SavedVariables: DressMeSavedLooks
+## SavedVariables: DressMeSettings
+## Version: 1.2.1
+
+QueryItem.lua
+WowheadURL.lua
+
+db\Items.lua
+db\PreviewSetup.lua
+DressingRoom.lua
+PreviewList.lua
+ListFrame.lua
+DressMe.lua

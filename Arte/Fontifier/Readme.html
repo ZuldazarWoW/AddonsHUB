@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<title>Fontifier Readme</title>
+
+		<meta name="author" content="Michael Rhoades" />
+		<meta name="revised" content="2009-05-08" />
+
+		<style type="text/css">
+			body {
+				font-family: Segoe UI, Arial, Sans-Serif;
+				font-size: 9pt;
+				background-color: #ffffff;
+			}
+			img {
+				border-style: none;
+			}
+			div.header {
+				width: 600px;
+				text-align: justify;
+				border-bottom: #c6c6c6 solid 1px;
+				padding: 0px 0px 10px 0px;
+			}
+			div.body {
+				width: 600px;
+				text-align: justify;
+				border-bottom: #c6c6c6 solid 1px;
+				padding: 10px 0px 10px 0px;
+			}
+			div.footer {
+				width: 600px;
+				text-align: justify;
+				padding: 10px 0px 0px 0px;
+			}
+			div.heading {
+				font-weight: bold;
+			}
+			a:link {
+				text-decoration: underline;
+				color: #cc6633
+			}
+			a:visited {
+				text-decoration: underline;
+				color: #cc6633
+			}
+			a:hover {
+				text-decoration: underline;
+				color: #ff9966
+			}
+			a:active {
+				text-decoration: underline;
+				color: #cc6633
+			}
+			ol {
+				margin: 0px;
+				padding: 0px 0px 0px 0px;
+				list-style-position: inside;
+				list-style-type: decimal;
+			}
+			ul.sub {
+				margin: 0px;
+				padding: 0px 0px 0px 40px;
+				list-style-position: inside;
+				list-style-type: disc;
+			}
+			ul {
+				margin: 0px;
+				padding: 0px 0px 0px 0px;
+				list-style-position: inside;
+				list-style-type: disc;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="header">
+			<div class="heading">Fontifier</div>
+			<div><a href="http://wow.curse.com/downloads/wow-addons/details/fontifier.aspx">Curse</a> | <a href="http://wow.curseforge.com/projects/fontifier/">Curseforge</a></div>
+		</div>
+
+		<div class="body">
+			<div class="heading">Quick Description</div>
+			<div>Fontifier is a font replacement addon for World of Warcraft. Its main goal is to be configurable and easy to use while providing a consistent look by unifying the various font styles and sizes assigned by the default user interface.</div>
+		</div>
+
+		<div class="body">
+			<div class="heading">Usage</div>
+			<div>To configure Fontifier, either use the Addons tab in the Interface menu or use the /fontifier command.</div>
+		</div>
+
+		<div class="body">
+			<div class="heading">Adding Your Own Fonts</div>
+			<div>You can add any standard TrueType font (.ttf files) to Fontifier and LibSharedMedia 3.0 by following the procedure below. OpenType fonts (.otf files) are also supported as long as they contain TrueType outlines.</div>
+
+			<br />
+			<div class="heading">Procedure</div>
+			<div>
+				<ol>
+					<li>Copy your fonts into the <b>Custom</b> folder located inside the Fontifier folder</li>
+					<li>Create a file named <b>Custom.lua</b> in the <b>Custom</b> folder</li>
+					
+					<ul class="sub">
+						<li>You can also copy <b>Verana Sans Example.lua</b> to <b>Custom.lua</b> to use as a template</li>
+					</ul>
+					
+					<li>For each font you want to add, copy and paste the following line into the <b>Custom.lua</b> file you created:</li>
+
+					<ul class="sub">
+						<li><b>ADDFONT("Filename.ttf", "Display Name")</b></li>
+						<li>Replace <b>Filename.ttf</b> with your font's filename (do not include the path)</li>
+						<li>Replace <b>Display Name</b> with the name you want to be displayed in World of Warcraft</li>
+						<li>Be sure to keep the quotes intact</li>
+					</ul>
+
+					<li>Save the file and you're done</li>
+				</ol>
+			</div>
+		</div>
+
+		<div class="footer">
+			<div>&copy; 2009 <a href="http://www.naivesoftware.com/contact.html">Michael Rhoades</a>.</div>
+		</div>
+	</body>
+</html>
