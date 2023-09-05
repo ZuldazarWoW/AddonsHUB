@@ -1,0 +1,16 @@
+##Interface: 30300
+##Title: Fontifier - [|cffb1997fZuldazarWoW|r]
+##Notes: A font replacer.
+##Author: Michael Rhoades
+##SavedVariables: FontifierDB
+## X-Curse-Packaged-Version: 0.3.1
+## X-Curse-Project-Name: Fontifier
+## X-Curse-Project-ID: fontifier
+## X-Curse-Repository-ID: wow/fontifier/mainline
+
+Embeds.xml
+Core.lua
+Configuration.lua
+
+Custom\Verana Sans Example.lua
+Custom\Custom.lua

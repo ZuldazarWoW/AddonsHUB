@@ -1,0 +1,11 @@
+## Interface: 30200
+## Title: PanoShot - [|cffb1997fZuldazarWoW|r]
+## Version: 1.4.2.1
+## Author: end@cornhooves.org
+## Notes: Assist in the creation of taking Panoramic Screenshots
+## X-Category: Miscellaneous
+## X-Curse-Packaged-Version: 1.4.2.1
+## X-Curse-Project-Name: PanoShot
+## X-Curse-Project-ID: panoshot
+## X-Curse-Repository-ID: wow/panoshot/mainline
+PanoShot.lua

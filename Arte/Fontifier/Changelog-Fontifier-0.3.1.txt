@@ -1,0 +1,80 @@
+------------------------------------------------------------------------
+r20 | gnack | 2009-12-17 18:40:42 +0000 (Thu, 17 Dec 2009) | 1 line
+Changed paths:
+   A /tags/0.3.1 (from /trunk:19)
+
+Tagging as 0.3.1
+------------------------------------------------------------------------
+r19 | gnack | 2009-12-17 18:35:42 +0000 (Thu, 17 Dec 2009) | 1 line
+Changed paths:
+   A /trunk/Custom
+   A /trunk/Custom/Verana Sans Bold.ttf
+   A /trunk/Custom/Verana Sans Example.lua
+   A /trunk/Custom/Verana Sans License.txt
+   A /trunk/Custom/Verana Sans.ttf
+   M /trunk/Fontifier.toc
+   M /trunk/Readme.html
+
+Verana Sans added as a custom font example. Readme.html updated.
+------------------------------------------------------------------------
+r17 | gnack | 2009-12-16 19:38:48 +0000 (Wed, 16 Dec 2009) | 6 lines
+Changed paths:
+   M /trunk/Configuration.lua
+   M /trunk/Core.lua
+   M /trunk/Embeds.xml
+   A /trunk/Fonts/Cantarell Bold.ttf
+   A /trunk/Fonts/Cantarell License.txt
+   A /trunk/Fonts/Cantarell.ttf
+   D /trunk/Fonts/Verana Sans Bold.ttf
+   D /trunk/Fonts/Verana Sans License.txt
+   D /trunk/Fonts/Verana Sans.ttf
+   M /trunk/Libs/AceAddon-3.0/AceAddon-3.0.lua
+   M /trunk/Libs/AceConfig-3.0/AceConfig-3.0.lua
+   M /trunk/Libs/AceConfig-3.0/AceConfigCmd-3.0/AceConfigCmd-3.0.lua
+   M /trunk/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
+   M /trunk/Libs/AceConfig-3.0/AceConfigRegistry-3.0/AceConfigRegistry-3.0.lua
+   M /trunk/Libs/AceConsole-3.0/AceConsole-3.0.lua
+   M /trunk/Libs/AceDB-3.0/AceDB-3.0.lua
+   A /trunk/Libs/AceDBOptions-3.0
+   A /trunk/Libs/AceDBOptions-3.0/AceDBOptions-3.0.lua
+   A /trunk/Libs/AceDBOptions-3.0/AceDBOptions-3.0.xml
+   M /trunk/Libs/AceEvent-3.0/AceEvent-3.0.lua
+   M /trunk/Libs/AceGUI-3.0/AceGUI-3.0.lua
+   M /trunk/Libs/AceGUI-3.0/AceGUI-3.0.xml
+   M /trunk/Libs/AceGUI-3.0/widgets/AceGUIWidget-BlizOptionsGroup.lua
+   M /trunk/Libs/AceGUI-3.0/widgets/AceGUIWidget-Button.lua
+   M /trunk/Libs/AceGUI-3.0/widgets/AceGUIWidget-CheckBox.lua
+   M /trunk/Libs/AceGUI-3.0/widgets/AceGUIWidget-ColorPicker.lua
+   M /trunk/Libs/AceGUI-3.0/widgets/AceGUIWidget-DropDown-Items.lua
+   M /trunk/Libs/AceGUI-3.0/widgets/AceGUIWidget-DropDown.lua
+   M /trunk/Libs/AceGUI-3.0/widgets/AceGUIWidget-DropDownGroup.lua
+   M /trunk/Libs/AceGUI-3.0/widgets/AceGUIWidget-EditBox.lua
+   M /trunk/Libs/AceGUI-3.0/widgets/AceGUIWidget-Frame.lua
+   M /trunk/Libs/AceGUI-3.0/widgets/AceGUIWidget-Heading.lua
+   M /trunk/Libs/AceGUI-3.0/widgets/AceGUIWidget-Icon.lua
+   M /trunk/Libs/AceGUI-3.0/widgets/AceGUIWidget-InlineGroup.lua
+   M /trunk/Libs/AceGUI-3.0/widgets/AceGUIWidget-InteractiveLabel.lua
+   M /trunk/Libs/AceGUI-3.0/widgets/AceGUIWidget-Keybinding.lua
+   M /trunk/Libs/AceGUI-3.0/widgets/AceGUIWidget-Label.lua
+   M /trunk/Libs/AceGUI-3.0/widgets/AceGUIWidget-MultiLineEditBox.lua
+   M /trunk/Libs/AceGUI-3.0/widgets/AceGUIWidget-ScrollFrame.lua
+   M /trunk/Libs/AceGUI-3.0/widgets/AceGUIWidget-SimpleGroup.lua
+   M /trunk/Libs/AceGUI-3.0/widgets/AceGUIWidget-Slider.lua
+   M /trunk/Libs/AceGUI-3.0/widgets/AceGUIWidget-TabGroup.lua
+   M /trunk/Libs/AceGUI-3.0/widgets/AceGUIWidget-TreeGroup.lua
+   A /trunk/Libs/AceGUI-3.0/widgets/AceGUIWidget-Window.lua
+   M /trunk/Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua
+
+Added profile support.
+Added an option to resize the character frame stat columns.
+Miscellaneous internal changes.
+Reorganized the configuration frame.
+Removed the option to display small text using bold fonts.
+Replaced Verana Sans with Cantarell.
+------------------------------------------------------------------------
+r15 | gnack | 2009-12-10 17:27:16 +0000 (Thu, 10 Dec 2009) | 1 line
+Changed paths:
+   M /trunk/Fontifier.toc
+
+TOC bumped to version 3.3.0.
+------------------------------------------------------------------------

@@ -1,0 +1,13 @@
+## Interface: 30300
+## Title: BTEX 2.9.3 by |cFFFF8080Tiggy|r - [|cffb1997fZuldazarWoW|r]
+## Title-frFR: BTEX 2.9.3 par |cFFFF8080Tiggy|r
+## Version: 2.9.3
+## Author: Tiggy
+## Notes: A lightweight addon that provide a customisable background texture at the bottom of the screen
+## Notes-frFR: Un addon leger qui offre une texture parametrable en bas de l'écran
+## DefaultState: Enabled
+## X-Category: Interface Enhancements
+## X-Website: http://www.wowinterface.com/downloads/info7906.html
+## SavedVariablesPerCharacter:TEX_CHOICE,TEX_HEIGHT,UI_WIDTH,TEX_ALPHA,TEX_WIDTH,TEX_X,TEX_Y,TEX_STRATA,TEX_VERTEX_R,TEX_VERTEX_G,TEX_VERTEX_B,TEX_VIEWPORT_BL,TEX_VIEWPORT_BR,TEX_VIEWPORT_TL,TEX_VIEWPORT_TR,TEX_CHAT
+Localisation.lua
+Btex.lua
